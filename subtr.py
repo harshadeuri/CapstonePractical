@@ -1,6 +1,7 @@
 #subtraction
-def subtract(a,b):
-    r=a-b
-    print(r)
+def subtract():
+    a=10
+    b=12
+    print(a+b)
     
     

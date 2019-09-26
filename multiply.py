@@ -1,4 +1,4 @@
 def Multiply():
-	x = int(input("First Number"))
-	y = int(input("Second Number"))
+	x = 2
+	y = 3
 	print(x*y)

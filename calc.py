@@ -1,17 +1,19 @@
+import Add as a
+import subtr as s
+import multiply as m
 print("MENU")
 print("1. ADD")
 print("2. Subtract")
 print("3. Multiply")
-print("4. Divide")
+
 choice=int(input("Make a choice"))
 
 if choice==1:
-	ADD()
+	a.ADD()
 elif choice==2:
-	Subtract()
+	s.subtract()
 elif choice==3:
-	Multiply()
-elif choice==4:
-	Divide()
+	m.Multiply()
+
 
 
